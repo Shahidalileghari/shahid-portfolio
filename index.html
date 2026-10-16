@@ -14,17 +14,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --void:#0C100D;--deep:#141B16;--panel:#1D2922;--card:#26362C;--lift:#304537;
-  --sage:#91B982;--forest:#64865E;--river:#73998A;--eucalyptus:#83B9A4;
-  --moss:#789C75;--leaf:#A5BD79;--pale-leaf:#C4CF8D;--ochre:#DDB36F;
-  --terracotta:#D1906C;--clay:#C47D70;--rosewood:#D19786;--sandstone:#C1A178;
-  --g1:linear-gradient(125deg,#83B66F 0%,#78AD97 52%,#D7AD6B 100%);
-  --g2:linear-gradient(125deg,#73A986 0%,#A7BC73 55%,#DDB36F 100%);
-  --g3:linear-gradient(125deg,#D2A15F 0%,#D28A68 55%,#C77D70 100%);
-  --g4:linear-gradient(125deg,#92AE70 0%,#B99A70 55%,#C77D70 100%);
-  --g5:linear-gradient(125deg,#6D9A7E 0%,#83B6A5 55%,#D7AD6B 100%);
-  --g6:linear-gradient(125deg,#79A86B 0%,#A8BA70 55%,#D7AD6B 100%);
-  --t0:#FFFDF6;--t1:#F0F1E8;--t2:#CDD5C8;--t3:#AEB9A9;--t4:#929F8F;
+  --void:#0B1114;--deep:#111D22;--panel:#162A2F;--card:#1C373D;--lift:#244B52;
+  --sage:#8FDEC1;--forest:#59B7A5;--river:#5EA7CA;--eucalyptus:#7BD7D4;
+  --moss:#7DC8AA;--leaf:#A8E0B0;--pale-leaf:#DCEFC2;--ochre:#F5C66E;
+  --terracotta:#F29A78;--clay:#EA8E73;--rosewood:#D78CD5;--sandstone:#E7C68A;
+  --g1:linear-gradient(135deg,#79E7D7 0%,#5AB6C6 34%,#8BB9FF 100%);
+  --g2:linear-gradient(135deg,#85E2B3 0%,#6AA9D8 50%,#F7D16C 100%);
+  --g3:linear-gradient(135deg,#F9D69C 0%,#F59D7D 42%,#D685D7 100%);
+  --g4:linear-gradient(135deg,#A3F0D0 0%,#80C6F6 52%,#F4D07B 100%);
+  --g5:linear-gradient(135deg,#73D3C0 0%,#5C9AD4 50%,#F0C57A 100%);
+  --g6:linear-gradient(135deg,#8FE7BA 0%,#8CC9FF 52%,#F3C76A 100%);
+  --t0:#F5F9F8;--t1:#E8F1F1;--t2:#CCDBDA;--t3:#9BB3B1;--t4:#7F9696;
   --b1:rgba(238,245,231,.09);--b2:rgba(238,245,231,.15);--b3:rgba(238,245,231,.25);
   --sans:'Plus Jakarta Sans',system-ui,sans-serif;
   --serif:'Fraunces',Georgia,serif;
@@ -71,7 +71,7 @@ button{cursor:pointer;border:none;background:none;font:inherit}
 .sh2{font-family:var(--serif);font-size:clamp(26px,3.2vw,40px);font-weight:700;
   color:var(--t0);line-height:1.15;letter-spacing:-.5px;margin-bottom:8px}
 .ssub{font-size:14px;color:var(--t2);max-width:540px;margin:0 auto;line-height:1.7}
-.grad-sep{height:1px;background:linear-gradient(90deg,transparent,var(--sage),var(--eucalyptus),transparent);margin:0}
+.grad-sep{height:1px;background:linear-gradient(90deg,transparent,#6CCAC0,#9AEAD2,transparent);margin:0}
 
 /* Scroll animations */
 .fi{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
@@ -84,9 +84,9 @@ button{cursor:pointer;border:none;background:none;font:inherit}
 /* Orbs */
 .orb-field{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
 .orb{position:absolute;border-radius:50%;filter:blur(80px);animation:orb-f 12s ease-in-out infinite}
-.orb1{width:580px;height:580px;top:-180px;left:-140px;background:rgba(131,182,111,.16);animation-delay:0s}
-.orb2{width:460px;height:460px;top:35%;right:-140px;background:rgba(131,185,164,.13);animation-delay:-4s}
-.orb3{width:380px;height:380px;bottom:10%;left:22%;background:rgba(209,144,108,.10);animation-delay:-8s}
+.orb1{width:580px;height:580px;top:-180px;left:-140px;background:rgba(73,188,177,.18);animation-delay:0s}
+.orb2{width:460px;height:460px;top:35%;right:-140px;background:rgba(110,167,226,.14);animation-delay:-4s}
+.orb3{width:380px;height:380px;bottom:10%;left:22%;background:rgba(245,198,110,.12);animation-delay:-8s}
 @keyframes orb-f{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(28px,-18px) scale(1.04)}66%{transform:translate(-18px,14px) scale(.97)}}
 
 /* ── NAV ── */
@@ -482,7 +482,7 @@ footer p{font-size:12px;color:var(--t3)}
           <svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="4" fill="#8EA66C"/></svg>
           Software engineer · Karachi, Pakistan
         </div>
-        <h1 class="hero-h1">Hi, I'm<br><span class="gt-v">Shahid</span></h1>
+        <h1 class="hero-h1">Hi, I'm<br><span class="gt-v">Engr Shahid Ali</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-desc">I enjoy turning messy problems into thoughtful, useful software. My work and learning span mobile apps, web development, and applied AI—with a focus on making the details feel simple for the people using them.</p>
         <div class="hero-chips">
@@ -494,6 +494,9 @@ footer p{font-size:12px;color:var(--t3)}
         <div class="hero-btns">
           <a class="btn btn-grad" href="#contact">
             Say hello
+          </a>
+          <a class="btn btn-ghost" href="./resume_ShahidAli.pdf" target="_blank" rel="noopener noreferrer">
+            Download CV
           </a>
           <a class="btn btn-ghost" href="#projects">
             Explore Work
@@ -712,8 +715,8 @@ footer p{font-size:12px;color:var(--t3)}
         <div class="form-card">
           <div id="fBody">
             <div class="form-h">Send a message</div>
-            <p class="form-sub">This opens your email app with your message ready to send.</p>
-            <form onsubmit="submitForm(event)">
+            <p class="form-sub">Messages are sent securely through Formspree.</p>
+            <form id="contactForm" method="POST" action="https://formspree.io/f/mrpervqq">
               <div class="f2">
                 <div class="field"><label class="sr-only" for="contact-name">Your name</label><svg class="f-ico" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><input id="contact-name" type="text" name="name" placeholder="Your name" autocomplete="name" required></div>
                 <div class="field"><label class="sr-only" for="contact-email">Email address</label><svg class="f-ico" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><input id="contact-email" type="email" name="email" placeholder="Email address" autocomplete="email" required></div>
@@ -724,8 +727,8 @@ footer p{font-size:12px;color:var(--t3)}
             </form>
           </div>
           <div class="success-msg" id="sMsg" role="status" aria-live="polite">
-            <div class="form-h">Your email app should be ready</div>
-            <p class="c-p">Review the message and send it from your email app. If it didn’t open, email me at <a class="contact-link" href="mailto:shahidalileghari2021@gmail.com">shahidalileghari2021@gmail.com</a>.</p>
+            <div class="form-h">Message sent successfully</div>
+            <p class="c-p">Thanks for reaching out. I’ll get back to you soon.</p>
           </div>
         </div>
       </div>
@@ -811,16 +814,39 @@ document.querySelectorAll('.fbt').forEach(button=>button.addEventListener('click
 
 document.getElementById('year').textContent=new Date().getFullYear();
 
-function submitForm(e){
+const contactForm=document.getElementById('contactForm');
+const fBody=document.getElementById('fBody');
+const sMsg=document.getElementById('sMsg');
+
+contactForm.addEventListener('submit',async function(e){
   e.preventDefault();
-  const form=e.target;
-  const data=new FormData(form);
-  const subject=String(data.get('subject'));
-  const body=`From: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`;
-  document.getElementById('sMsg').classList.add('show');
-  document.getElementById('fBody').hidden=true;
-  window.location.href=`mailto:shahidalileghari2021@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-}
+  const form=this;
+  const submitBtn=form.querySelector('button[type="submit"]');
+  const originalText=submitBtn.innerHTML;
+  submitBtn.disabled=true;
+  submitBtn.innerHTML='Sending...';
+
+  try{
+    const response=await fetch(form.action,{
+      method:'POST',
+      body:new FormData(form),
+      headers:{'Accept':'application/json'}
+    });
+
+    if(response.ok){
+      form.reset();
+      fBody.hidden=true;
+      sMsg.classList.add('show');
+    }else{
+      throw new Error('Form submission failed');
+    }
+  }catch(error){
+    alert('There was a problem sending your message. Please email shahidalileghari2021@gmail.com directly.');
+    console.error(error);
+    submitBtn.disabled=false;
+    submitBtn.innerHTML=originalText;
+  }
+});
 </script>
 </body>
 </html>
