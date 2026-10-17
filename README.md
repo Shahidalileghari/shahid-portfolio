@@ -37,8 +37,8 @@ Explore my repositories to discover my projects, experiments, and ongoing learni
 ## Contact
 
 - **GitHub:** [@Shahidalileghari](https://github.com/Shahidalileghari)
-- **Email:** Add your professional email address here
-- **LinkedIn:** Add your LinkedIn profile URL here, if available
+- **Email:** shahidalileghari2021@gmail.com
+- **LinkedIn:**www.linkedin.com/in/shahid-ali-leghari
 
 ---
 
